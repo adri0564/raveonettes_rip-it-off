@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "universthin_ultra_condensed";
+  src: url("univers_39_font/univers_39_thin_ultra_condensed-webfont.woff2") format("woff2"), url("univers_39_font/univers_39_thin_ultra_condensed-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "avenir_next_lt_proregular";
+  src: url("avenir_next_font/26301410506-webfont.woff2") format("woff2"), url("avenir_next_font/26301410506-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SCROLL */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+section {
+  scroll-snap-align: start;
+}
+
+/* @media only screen and (min-width: 600px) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+  section {
+    scroll-snap-align: start;
+  }
+} */
+
+LILLE SKÆRM 
+
+/* OVERLAY TOGGLE TRANSITION TIME */
+#text_overlay {
+  opacity: 0;
+  transition: opacity 400ms ease-in-out; /* Tilføj overgangseffekt til opacity */
+}
+
+/* FILM ROLL PLACERING */
