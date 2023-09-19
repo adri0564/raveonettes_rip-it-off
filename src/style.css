@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "universthin_ultra_condensed";
-  src: url("univers_39_font/univers_39_thin_ultra_condensed-webfont.woff2") format("woff2"), url("univers_39_font/univers_39_thin_ultra_condensed-webfont.woff") format("woff");
+  src: url("/univers_39_font/univers_39_thin_ultra_condensed-webfont.woff2") format("woff2"), url("/univers_39_font/univers_39_thin_ultra_condensed-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "avenir_next_lt_proregular";
-  src: url("avenir_next_font/26301410506-webfont.woff2") format("woff2"), url("avenir_next_font/26301410506-webfont.woff") format("woff");
+  src: url("/avenir_next_font/26301410506-webfont.woff2") format("woff2"), url("/avenir_next_font/26301410506-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
