@@ -25,14 +25,10 @@ section {
   scroll-snap-align: start;
 }
 
-/* @media only screen and (min-width: 600px) {
-  html {
-    scroll-snap-type: y mandatory;
-  }
-  section {
-    scroll-snap-align: start;
-  }
-} */
+/* VIDEO OVERLAY  */
+.non-clickable {
+  pointer-events: none;
+}
 
 LILLE SKÆRM 
 
