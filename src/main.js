@@ -1,12 +1,5 @@
 import "./style.css";
 
-// autoplay video ved load
-// Vent, indtil dokumentet er indlæst
-document.addEventListener("DOMContentLoaded", function () {
-  const video = document.getElementById("video");
-  video.play(); // Start videoafspilning
-});
-
 // Hent referencer til billederne
 const imageLeft = document.querySelector(".justify-self-start");
 const imageRight = document.querySelector(".justify-self-end");
