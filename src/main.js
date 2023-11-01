@@ -1,21 +1,11 @@
 import "./style.css";
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   var section = document.getElementById("moe");
-//   var overlayText = document.getElementById("text_overlay");
-
-//   section.addEventListener("click", function () {
-//     toggleOverlayOpacity(overlayText);
-//   });
-// });
-
-// function toggleOverlayOpacity(element) {
-//   if (element.style.opacity === "0" || element.style.opacity === "") {
-//     element.style.opacity = "1";
-//   } else {
-//     element.style.opacity = "0";
-//   }
-// }
+// autoplay video ved load
+// Vent, indtil dokumentet er indlæst
+document.addEventListener("DOMContentLoaded", function () {
+  const video = document.getElementById("video");
+  video.play(); // Start videoafspilning
+});
 
 // Hent referencer til billederne
 const imageLeft = document.querySelector(".justify-self-start");
